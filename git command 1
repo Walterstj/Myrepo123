@@ -1,0 +1,100 @@
+101  clear
+  102  cd ..
+  103  ls
+  104  cd ubuntu/
+  105  ls
+  106  cd LocalConfigProj/
+  107  git log
+  108  ls 
+  109  ls -la
+  110  ls .git
+  111  clear
+  112  cat .git/config 
+  113  git log
+  114  git status
+  115  git log --oneline
+  116  cd ..
+  117  mkdir proj
+  118  cd proj/
+  119  git init
+  120  ls
+  121  ls -la
+  122  clear
+  123  ls .git
+  124  clear
+  125  touch 1.txt 2.txt 3.txt 4.txt
+  126  ls
+  127  git status
+  128  git log
+  129  git log --oneline
+  130  git status
+  131  clear
+  132  git status
+  133  clear
+  134  git add 1.txt 
+  135  git status
+  136  git coomit -m "1.txt is added"
+  137  git commit -m "1.txt is added"
+  138  git status
+  139  clear
+  140  git log
+  141  git log --oneline
+  142  git add .
+  143  git status
+  144  git reset HEAD 2.txt
+  145  git status
+  146  git commit -m "3.txt is added"
+  147  git status
+  148  clear
+  149  git status
+  150  git log --oneline
+  151  git log 
+  152  clear
+  153  git reset HEAD 4.txt
+  154  git status
+  155  touch 4.txt 5.txt
+  156  ls
+  157  clear
+  158  git status
+  159  git add 5.txt
+  160  git status
+  161  git commit -m "5.txt file is added" 5.txt
+  162  git status
+  163  touch 6.txt 7.txt 8.txt
+  164  clear
+  165  git status
+  166  git add 6.txt 7.txt
+  167  git status
+  168  git commit -m "6.txt file is added" 6.txt
+  169  git status
+  170  git log --oneline
+  171  clear
+  172  git add .
+  173  git status
+  174  git commit -m "2.txt and 7.txt are added"
+  175  git log --oneline
+  176  git status
+  177  clera
+  178  clear
+  179  touch 1.exe 2.exe 3.log 4.log 5.log
+  180  git status
+  181  vi .gitignore
+  182  git status
+  183  vi .gitignore
+  184  git status
+  185  clear
+  186  git status
+  187  clear
+  188  git status
+  189  git log
+  190  clear
+  191  git log --oneline
+  192  status
+  193  git status
+  194  ls
+  195  clear
+  196  ls
+  197  echo "1.txt is modified" >> 1.txt
+  198  cat 1.txt 
+  199  git status
+  200  git add .
