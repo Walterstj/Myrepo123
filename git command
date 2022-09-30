@@ -1,24 +1,91 @@
-439  git remote add origin https://github.com/Walterstj/Myrepo123.git
-  240  clear
-  241  cat .git/config 
-  242  git push origin master
-  243  clear
-  244  ls
-  245  rm *.exe
-  246  rm .gitignore
-  247  ls
-  248  rm *.log
-  249  ls
-  250  touch 11.txt
-  251  git add 11.txt 
-  252  git commit - m "11.txt is added"
-  253  git commit -m "11.txt is added"
-  254  ls
-  255  clear
-  256  git push origin master
-  257  git fetch
-  258  ls
-  259  git merge origin master
-  260  git merge origin/master
-  261  ls
-  262  git push origin master
+10  apt-get install yum
+   11  clear
+   12  yum install git
+   13  apt install git
+   14  git --version
+   15  apt purge git
+   16  git --version
+   17  ls
+   18  rm hostname 
+   19  ls
+   20  ls -a
+   21  ls -la
+   22  ls -ltr
+   23  clear
+   24  ls -la
+   25  cat /root/.gitconfig
+   26  cd /root
+   27  ls -la
+   28  grep .gitconfig
+   29  clear
+   30  vim hostname
+   31  hostname git
+   32  vi /etc/hostname
+   33  bash
+   34  clear
+   35  cat /root/.gitconfig
+   36  pwd
+   37  cd /root
+   38  ls
+   39  ls -la
+   40  clear
+   41  pwd
+   42  id
+   43  cd ..
+   44  cd /home
+   45  ls
+   46  cd ubuntu/
+   47  ls
+   48  ls -la
+   49  clear
+   50  mkdir MyProj
+   51  cd MyProj
+   52  ls
+   53  git init
+   54  ls
+   55  ls -la
+   56  ls -a
+   57  ls -la
+   58  clear
+   59  git config --global user.email waltersaintjuste@gmail.com
+   60  cat /root/.gitconfig 
+   61  touch myfile_1.txt
+   62  git status
+   63  git add myfile_1.txt 
+   64  git commit -m "myfile_1.txt is add" 
+   65  git log
+   66  ls .git
+   67  clear
+   68  cd ..
+   69  mkdir LocalConfigProj
+   70  cd LocalConfigProj
+   71  ls
+   72  git init
+   73  git config --local user.name dev_ritika
+   74  git config --local user.email dev_ritika@kmit.com
+   75  git add myfile_1.txt
+   76  git commit -m "myfile_1.txt is added"
+   77  git log
+   78  git branch
+   79  ls 'la
+   80  ls -la
+   81  clear
+   82  ls -la
+   83  ls .git
+   84  ls .git/objects/
+   85  ls .git/branches/
+   86  ls .git/hooks/
+   87  ls
+   88  clear
+   89  cd ..
+   90  ls
+   91  ls -la
+   92  clear
+   93  ls
+   94  pwd
+   95  id
+   96  clear
+   97  cd /ect/hostname
+   98  vi  /ect/hostname
+   99  clear
+  100  vi /etc/
