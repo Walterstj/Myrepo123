@@ -1,0 +1,24 @@
+439  git remote add origin https://github.com/Walterstj/Myrepo123.git
+  240  clear
+  241  cat .git/config 
+  242  git push origin master
+  243  clear
+  244  ls
+  245  rm *.exe
+  246  rm .gitignore
+  247  ls
+  248  rm *.log
+  249  ls
+  250  touch 11.txt
+  251  git add 11.txt 
+  252  git commit - m "11.txt is added"
+  253  git commit -m "11.txt is added"
+  254  ls
+  255  clear
+  256  git push origin master
+  257  git fetch
+  258  ls
+  259  git merge origin master
+  260  git merge origin/master
+  261  ls
+  262  git push origin master
