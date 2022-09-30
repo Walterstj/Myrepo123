@@ -1,0 +1,39 @@
+cat .git/config
+  441  git remote add origin https://github.com/Walterstj/jenkins_cicd.git
+  442  git config --local user.name Walterstjs
+  443  git config --local user.email waltersaintjuste@gmail.com
+  444  cat .git/config
+  445  git config --global user.name Walterstjs
+  446  git config --global user.email waltersaintjuste@gmail.com
+  447  cat .git/config
+  448  git remote add origin https://github.com/Walterstj/jenkins_cicd.git
+  449  clear
+  450  ls
+  451  git init
+  452  touch README.md
+  453  git add .
+  454  git commit -m "README.md file is added"
+  455  git push origin master
+  456  git push --set-upstream origin master
+  457  clear
+  458  cat .git/config
+  459  git remote
+  460  git remote add origin https://github.com/Walterstj/jenkins_cicd.git
+  461  git remote -v
+  462  clear
+  463  git remote rename origin origin https://github.com/Walterstj/jenkins_cicd.git
+  464  git remote -v
+  465  git remote rename origin https://github.com/Walterstj/jenkins_cicd.git
+  466  git remote rename origin Walterstj
+  467  git remote -v
+  468  git remote rename origin Walterstj
+  469  git remote -v
+  470  git push origin
+  471  git push origin master
+  472  clear
+  473  git fetch
+  474  git merge origin/master
+  475  git push origin master
+  476  git remote add origin https://github.com/Walterstj/jenkins_cicd.git
+  477  git remote -v
+  478  git push origin master
