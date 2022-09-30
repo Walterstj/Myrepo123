@@ -1,0 +1,64 @@
+201  git status
+  202  git commit -m "1.txt file is modified"
+  203  clear
+  204  git status
+  205  git log --oneline
+  206  git diff 96d08f2 73f0ed1
+  207  clear
+  208  ls
+  209  cd proj/
+  210  ls
+  211  clear
+  212  git log
+  213  git log --oneline
+  214  git diff 96d08f2 73f0ed1
+  215  clear
+  216  git log --oneline
+  217  touch 9.txt
+  218  git status
+  219  git add 9.txt
+  220  git commit -m "9.txt file is added"
+  221  git log --oneline
+  222  git reset HEAD~1
+  223  git log --oneline
+  224  git status
+  225  git add .
+  226  git commit -m "9.txt is added"
+  227  git log --oneline
+  228  git reset --soft HEAD~1
+  229  git log --oneline
+  230  git status
+  231  git commit -m 9.txt file is added"
+  232  git commit -m "9.txt file is added"
+  233  git status
+  234  git log --online
+  235  git log --oneline
+  236  git reset --hard HEAD~1
+  237  git status
+  238  git log --oneline
+  239  git remote add origin https://github.com/Walterstj/Myrepo123.git
+  240  clear
+  241  cat .git/config 
+  242  git push origin master
+  243  clear
+  244  ls
+  245  rm *.exe
+  246  rm .gitignore
+  247  ls
+  248  rm *.log
+  249  ls
+  250  touch 11.txt
+  251  git add 11.txt 
+  252  git commit - m "11.txt is added"
+  253  git commit -m "11.txt is added"
+  254  ls
+  255  clear
+  256  git push origin master
+  257  git fetch
+  258  ls
+  259  git merge origin master
+  260  git merge origin/master
+  261  ls
+  262  git push origin master
+  263  clear
+  264  history
