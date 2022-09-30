@@ -1,0 +1,7 @@
+git remote rename Walterstj
+  503  git remote rename new Walterstj
+  504  git remote remove origin
+  505  git remote -v
+  506  git remote add origin https://github.com/Walterstj/AWS_SolutionArchitect.git
+  507  git remote -v
+  508  git push -u origin master
