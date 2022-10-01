@@ -1,0 +1,37 @@
+mkdir Mydir
+  686  cd Mydir/
+  687  touch m1 m2 m3
+  688  ls
+  689  git init
+  690  ls
+  691  git add m1
+  692  git status
+  693  git commit -m "m1"
+  694  clear
+  695  git add m2
+  696  git commit -m "m2"
+  697  git add m3
+  698  git commit -m "m3"
+  699  ls
+  700  git status
+  701  git log --oneline
+  702  clear
+  703  git branch
+  704  git branch feature
+  705  git checkout feature
+  706  ls
+  707  git log --oneline
+  708  touch f1
+  709  git add f1
+  710  git commit -m "f1"
+  711  git log --oneline
+  712  git checkout master
+  713  ls
+  714  touch m4
+  715  git add m4
+  716  git commit -m "m4"
+  717  git log --oneline
+  718  git checkout feature
+  719  git log --oneline
+  720  git rebase master
+  721  git log --oneline
