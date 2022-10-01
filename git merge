@@ -1,0 +1,24 @@
+ git branch feature
+  658  git checkout feature
+  659  git branch
+  660  ls
+  661  touch 12.txt
+  662  ls
+  663  git add 12.txt 
+  664  git commit 12.txt 
+  665  git status
+  666  git commit -m "12.txt file is added"
+  667  clear
+  668  git checkout master
+  669  ls
+  670  git branch
+  671  git checkout feature
+  672  git branch
+  673  git push origin feature
+  674  git checkout master
+  675  git merge feature
+  676  ls
+  677  git branch
+  678  git push origin master
+  679  git branch
+  680  git branch feature1
